@@ -12,4 +12,11 @@
 
 ***
 
-# 感谢 [@duiqt](https://github.com/duiqt)
+# 感谢
+
+* 原项目作者[@duiqt](https://github.com/duiqt)
+
+## 画师
+
+* [@芭芭莉姆barbarem](https://space.bilibili.com/24100461)
+* [@正義の忍者]()

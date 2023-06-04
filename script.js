@@ -151,6 +151,7 @@
     // try caching the hertaa1.gif and hertaa2.gif images by calling the tryCacheUrl function
     tryCacheUrl("img/nine1.gif");
     tryCacheUrl("img/nine2.gif");
+    tryCacheUrl("img/nine3.gif");
 
     // Define a function that takes an array as an argument and returns a random item from the array
     function randomChoice(myArr) {
@@ -172,7 +173,7 @@
     function getRandomAudioUrl() {
         var localAudioList = getLocalAudioList();
         if (current_vo_language == "ja") {
-            const randomIndex = Math.floor(Math.random() * 2) + 1;
+            const randomIndex = Math.floor(Math.random() * 3) + 1;
             return localAudioList[randomIndex];
         }
         const randomIndex = Math.floor(Math.random() * localAudioList.length);
@@ -196,7 +197,7 @@
 
     function animateHerta() {
         let id = null;
-        const random = Math.floor(Math.random() * 2) + 1;
+        const random = Math.floor(Math.random() * 3) + 1;
         const elem = document.createElement("img");
         elem.src = tryCacheUrl(`img/nine${random}.gif`);
         elem.style.position = "absolute";
