@@ -3,9 +3,14 @@
 pages:
   script:
     - mkdir public
-#    - cp index.html public
-  # 复制全部文件到public目录中
-    - cp -r * public
+    - cp index.html public
+    - cp -r audio public
+    - cp -r credits public
+    - cp -r img public
+    - cp script.js public
+    - cp style.css public
+    - cp credits.json public
+    - cp credits.rawiconurl.json public
   artifacts:
     paths:
       - public
