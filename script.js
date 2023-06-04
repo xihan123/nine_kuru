@@ -150,7 +150,7 @@
 
     // try caching the hertaa1.gif and hertaa2.gif images by calling the tryCacheUrl function
     tryCacheUrl("img/nine1.gif");
-    //tryCacheUrl("img/hertaa2.gif");
+    tryCacheUrl("img/nine2.gif");
 
     // Define a function that takes an array as an argument and returns a random item from the array
     function randomChoice(myArr) {
@@ -196,7 +196,7 @@
 
     function animateHerta() {
         let id = null;
-        const random = Math.floor(Math.random() * 1) + 1;
+        const random = Math.floor(Math.random() * 2) + 1;
         const elem = document.createElement("img");
         elem.src = tryCacheUrl(`img/nine${random}.gif`);
         elem.style.position = "absolute";
